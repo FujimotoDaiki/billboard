@@ -3,6 +3,6 @@ CREATE TABLE `users` (
   `login_id` varchar(20) NOT NULL,
   `password` varchar(255) NOT NULL,
   `name` varchar(10) DEFAULT NULL,
-  `corporation` int(11) DEFAULT NULL,
-  `position` int(11) DEFAULT NULL,
+  `corporation_id` int(11) NOT NULL,
+  `position_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)

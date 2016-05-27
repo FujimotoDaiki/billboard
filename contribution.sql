@@ -4,5 +4,5 @@ CREATE TABLE `contributions` (
   `text` varchar(1000) NOT NULL,
   `category` varchar(10) NOT NULL,
   `insert_date` timestamp NULL DEFAULT NULL,
-  `users_name` varchar(10) DEFAULT NULL,
+  `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)

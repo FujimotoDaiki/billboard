@@ -5,4 +5,4 @@ CREATE TABLE `users` (
   `name` varchar(10) DEFAULT NULL,
   `corporation_id` int(11) NOT NULL,
   `position_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`), `stop` TINYINT
